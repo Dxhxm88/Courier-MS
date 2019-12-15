@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+}
+
+#btnSaveSign{
+	color:#fff;
+	background:#f99a0b;
+	padding:5px;
+	border:none;
+	border-radius:5px;
+	font-size:20px;
+	margin-top:10px;
+}
+
+#signArea{
+	width:304px;
+	margin:50px auto;
+}
+.sign-container{
+	width:60%;
+	margin:auto;
+}
+
+.sign-preview{
+	width:150px;
+	height:50px;
+	border:solid 1px #CFCFCF;
+	margin:10px 5px;
+}
+
+.tag-info{
+	font-family:cursive;
+	font-size:12px;
+	text-align:left;
+	font-style:oblique;
+}

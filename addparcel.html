@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KUPTM Courier Management System</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="main">
+    
+    	 <div class="bannerTop"><img src="image/banner.png"/></div>
+        
+        <div class="nav">
+        	<ul>
+            <div class="container">
+            	<li><a href="adminhome.php">Home</a></li>
+                <li><a href="addparcel.html">Add New Parcel</a></li>
+                <li><a href="updateparcel.html">Update Parcel</a></li>
+                <li><a href="adminhelp.html">Help</a></li>
+                <li style="float:right"><a href="index.php">LOGOUT</a></li>
+            </div>
+            </ul>
+        </div> <!--End Nav-->
+        
+        <center>
+        <br />
+		<h1><b><u>PARCEL INFORMATION</u></b></h1>
+<form method="post" action="INSERTPARCEL1.php">
+<TABLE CELLSPACING=15 CELLPADDING=15 bgcolor="lightgray">
+<TR>
+    <TD ALIGN=right>Full Name (receiver) :&nbsp;</TD><br>
+    <TD ALIGN=left><input type="text" name="name" title="Must contain in uppercase" placeholder="e.g: SCHANA"required>&nbsp;
+    </TD>
+    <TD ALIGN=right>Phone No :</TD>
+    <TD ALIGN=left><input type="text" name="nophone" title="Must contain number phone without'-'" placeholder="e.g: 0123456789"required></TD>
+
+	<TD ALIGN=right>Position :&nbsp;</TD><TD><select name="position">
+    <option>STUDENT</option>
+    <option>ACADEMIC STAFF</option>
+    <option>NON-ACADEMIC STAFF</option></select></TD>
+    
+</TR>
+<TR>
+    <TD ALIGN=right>TRACKING NO : </TD>
+    <TD ALIGN=left><input type="text" name="trackingNo" title="Must contain in uppercase" placeholder="e.g: EN123"required>
+    <TD ALIGN=right>Location :&nbsp;</TD><TD><select name="location">
+    <option>BILIK PERCETAKAN</option>
+    <option>STOR LEVEL 1</option></select></TD>&nbsp;
+    <TD ALIGN=right>Status Parcel :&nbsp;</TD><TD><select name="statusparcel">
+    <option>NOT COLLECT</option>
+    <option>DONE COLLECT</option></select></TD>&nbsp;
+<TR>
+    <TD ALIGN=right>Date Arrive :</TD>
+    <TD ALIGN=left><input type="date" name="datearrive"></TD>
+    <TD ALIGN=right>Time Arrive :</TD>
+    <TD ALIGN=left><input type="time" name="timearrive"></TD>
+</TR>
+<TR>
+<TD ALIGN=right></TD><br>
+    <TD ALIGN=left></TD>
+    <TD ALIGN=right></TD>
+    <TD ALIGN=left></TD>
+    <TD ALIGN=right></TD><TD>
+<input type="submit" value="SUBMIT" button class="button button1"></TD>
+</TR>
+</TABLE>
+<br>
+<br>
+        
+        <div class="footer">
+        	<div class="container">
+        		<div class="logoBot"><img src="image/footerlogo.PNG" /></div>
+            
+            	<div class="AddressBot">
+                	<h4>CONTACT</h4>
+                    <p>Tel:03-9206 9700 Fax:03-9281 5764</p><br /> 
+                    <p><b>ADDRESS :</b></p>
+                    <p class="address">Kolej Universiti Poly-Tech MARA Kuala Lumpur © 2018. All Rights Reserved.
+                    Jalan 6/91, Taman Shamelin Perkasa, Cheras, 56100, Kuala Lumpur.</p>                   
+            	</div>
+            </div>
+        </div><!--Footer div-->
+        
+    </div><!--Main div-->
+</body>
+</html>
