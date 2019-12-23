@@ -16,9 +16,9 @@
         
         	<ul>
             <div class="container">
-            	<li><a href="index.php">Home</a></li>
-                <li><a href="location.html">Location & Contact</a></li>
-                <li><a href="help.html">Help</a></li>
+            	<li><a href="index">Home</a></li>
+                <li><a href="location">Location & Contact</a></li>
+                <li><a href="help">Help</a></li>
                 <li style="float:right"><a href="loginadmin.php">Admin</a></li>
             </div>
             </ul>
