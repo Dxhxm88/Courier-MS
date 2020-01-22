@@ -8,7 +8,7 @@
 }
 
 body{
-	background-color:#d5d4d4;
+	background-color:#ffffff;
 }
 
 .main{
@@ -195,7 +195,7 @@ li.dropdown{
 	background-color:#908585;
 	font-size:18px;
 	padding:5px;
-	padding-right:40px
+	padding-right:40px;
 	text-align:center;
 }
 .manage-admin table td{
@@ -336,7 +336,7 @@ li.dropdown{
 	background-color:#919191;
 	font-size:18px;
 	padding:5px;
-	padding-right:40px
+	padding-right:40px;
 	text-align:center;
 }
 
@@ -424,7 +424,7 @@ li.dropdown{
 	background-color:#919191;
 	font-size:18px;
 	padding:5px;
-	padding-right:40px
+	padding-right:40px;
 	text-align:center;
 }
 
@@ -454,7 +454,7 @@ li.dropdown{
 .product  .all{
 	border: 2px solid #666;
 	width: 1050px;
-	height: 1400px;;
+	height: 1400px;
 	padding-left: 30px;
 }
 
