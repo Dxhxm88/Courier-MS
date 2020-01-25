@@ -119,8 +119,10 @@
                     </div>
                    
                     <div class="product_price">                        
-                        <div class="button">
-                        	<a href="https://www.gdexpress.com/malaysia/e-tracking/">Click Here</a>
+                        <div class="button" class="collapsible">Click Here</a>
+							<div class="content">
+								<a href="https://www.gdexpress.com/malaysia/e-tracking/">
+							</div>
                         </div>
                     </div>
                 </div>
